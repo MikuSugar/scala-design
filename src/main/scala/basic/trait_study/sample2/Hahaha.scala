@@ -14,4 +14,5 @@ trait Hahaha {
 
 object Test extends App with Hahaha {
   show()
+  new Hahaha {}.show()
 }

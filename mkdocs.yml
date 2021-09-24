@@ -2,11 +2,11 @@ site_name: Scala Design
 copyright: Copyright &copy; 2021-2022 mikusugar
 theme:
   language: zh
-  favicon: img/logo.png
+  favicon: img/log.png
   name: material
   features:
     - navigation.tabs
-  logo: img/logo.png
+  logo: img/log.png
 repo_url: https://github.com/MikuSugar/scala-design
 repo_name: MikuSugar/scala-design
 site_description:  scala-design
@@ -15,3 +15,5 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - 主页: index.md
+  - 基础:
+      - 特质: basic/trait.md
